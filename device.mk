@@ -51,7 +51,14 @@ PRODUCT_COPY_FILES += \
 
 # Ramdisk
 PRODUCT_PACKAGES += \
-    init.PL2.target.rc
+    init.environ.rc \
+    init.recovery.qcom.rc \
+    init.usb.rc \
+    init.zygote64_32.rc \
+    init.rc \
+    init.usb.configfs.rc \
+    init.zygote32.rc \
+    init.safailnet.rc
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/nokia/PL2/PL2-vendor.mk)
