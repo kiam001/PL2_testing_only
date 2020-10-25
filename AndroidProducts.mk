@@ -17,7 +17,7 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_PL2.mk \
     $(LOCAL_DIR)/arrow_PL2.mk \
-    $(LOCAL_DIR)/revengeos_PL2.mk
+    $(LOCAL_DIR)/revengeos_PL2.mk \
     $(LOCAL_DIR)/du_PL2.mk
 
 COMMON_LUNCH_CHOICES := \
